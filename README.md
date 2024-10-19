@@ -1,6 +1,4 @@
 
-Aqui está uma sugestão de descrição para o repositório GitHub do projeto "Mundo Mágico":
-
 Mundo Mágico 🌟🧚‍♀️
 Mundo Mágico é um site interativo projetado para ajudar crianças a desenvolverem suas habilidades através de atividades lúdicas e educativas. O site oferece uma variedade de jogos, atividades criativas e tarefas interativas que estimulam a imaginação e o aprendizado de forma divertida. Cada seção do site é pensada para promover o desenvolvimento cognitivo, social e emocional das crianças.
 
