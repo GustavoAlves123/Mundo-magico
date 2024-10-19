@@ -1,0 +1,277 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    }
+
+
+.center{
+
+max-width: 1280px;
+margin:0 auto;
+
+
+}
+
+
+   
+    header{
+
+        padding: 50px 0;
+        
+        }
+        
+        
+        .logo {
+        width: 50%;
+        
+        }
+        
+        .menu{
+        width: 220%;
+        text-align: center;
+        
+        
+        }
+        .menu a {
+
+            text-align: right;
+            color: black;
+            text-decoration: none;
+            font-weight: bold;
+            margin-right: 100px;
+            
+            }
+            
+            .logo img {
+                max-width:150px;
+                max-height:250px;
+                height: auto;
+            }
+
+            div.VD {
+                
+                margin-top: 5%;
+	            width: 30%;
+	            display: inline-block
+               
+            }
+            .botao{
+                text-align: center;
+
+                margin-left: 88%;
+            
+
+            }
+
+            .atracs {
+                text-align: center;
+                width: 100%;
+                margin-top: 10px;
+           
+                
+        
+
+            }
+
+            .Videos{
+                
+                
+          width: 80%;
+          margin-left: 15%;
+           
+    }
+    .GL{
+
+        text-align: center;
+        margin-top: 2%;
+
+    }
+    
+
+            .vd{
+                text-align: center;
+                margin-top: 10%;
+            }
+
+            .FT{
+
+
+                text-align: center;
+margin-top: 5%;
+            }
+
+            .botaos{
+                text-align: center;
+                margin-top: 5vh;
+
+            }
+
+            button{
+             background-image: linear-gradient(45deg,#099188, black);
+            padding: 20px 40px;
+            font-size: 23px;
+            color: aliceblue;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+
+            }
+            
+#titulo {
+
+font-family: sans-serif;
+color: #099188;
+margin-left: 7%;
+
+}
+
+fieldset{
+
+    border: 0;
+}
+
+form{
+
+background-color: aliceblue;
+font-family: sans-serif;
+font-size: 1em;
+color:#099188;
+margin-left: 25%;
+margin-top: 2%;
+justify-content: center;
+
+
+
+}
+
+div.evento{
+    background-color: aliceblue;
+font-family: sans-serif;
+font-size: 1em;
+color:#099188;
+margin-left: 36%;
+margin-top: 2%;
+justify-content: center;
+}
+
+input, select, textarea,button{
+border-radius: 5px;
+
+}
+.campo{
+
+    margin-bottom: 1em;
+
+}
+
+.campo label{
+
+    margin-bottom: 0.2em;
+    color: #099188;
+    display: block;
+
+}
+fieldset.grupo .campo{
+    float: left;
+    margin-right: 1em;
+
+}
+
+
+.campo input [type="text"], .campo input[type="email"], .campo select, .campo textarea{
+
+
+padding: 0.2em;
+border: 1px solid #099188 ;
+box-shadow: 2px 2px 2px 2px;
+display: block;
+}
+
+.campo section option{
+    padding-right: 1em;
+}
+
+.campo input:focus, .campo select:focus, .campo textarea:focis {
+
+
+background:099188;
+
+}
+
+.botao{
+    font-size: 1.2em;
+    background: #099188;
+
+
+
+
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    margin-top: auto;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+}
+
+.footer-section h4 {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.footer-section p,
+.footer-section ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    font-size: 14px;
+}
+
+.footer-section ul li {
+    margin-bottom: 8px;
+}
+
+.footer-section ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+    background-color: #222;
+}
+
+.footer-bottom p {
+    margin: 0;
+}

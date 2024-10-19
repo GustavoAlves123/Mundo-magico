@@ -1,0 +1,320 @@
+*{
+
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+
+.center{
+display: flex;
+flex-wrap: wrap;
+max-width: 1280px;
+margin:0 auto;
+padding:0 2%;
+
+}
+
+header{
+
+padding: 50px 0;
+
+}
+
+
+.logo {
+width: 50%;
+
+}
+
+.menu{
+width: 220%;
+text-align: center;
+
+
+}
+
+
+.menu a {
+
+text-align: right;
+color: black;
+text-decoration: none;
+font-weight: bold;
+margin-right: 100px;
+
+}
+
+.logo img {
+    max-width:150px;
+    max-height:250px;
+    height: auto;
+}
+
+
+
+
+
+
+
+section.slider{
+
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    padding: 0; 
+    overflow: hidden;
+
+
+}
+
+.slider-content{
+
+    width: 400%;
+    height: auto;
+    display: flex;
+
+}
+
+.slider-content input{
+
+    display: none;
+
+}
+
+.slider-box {
+width: 25%;
+height: auto;
+position: relative;
+text-align: center;
+transition: 1s;
+
+}
+
+.slider-box img{
+width: 100%;
+
+}
+
+.nav-manual, .nav-auto{
+
+    position: absolute;
+    width: 100%;
+    margin-top: 35%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.nav-manual .manual-btn,.nav-auto div{
+
+border: 1px solid #099188;
+padding: 10px;
+border-radius: 50%;
+cursor: pointer;
+margin-right: 10px;
+transition: 0.2s;
+
+}
+
+.nav-manual .manual-btn:hover{
+    
+
+background-color: #099188;
+
+}
+
+
+#radio1:checked ~ .nav-auto .auto-btn1, #radio2:checked ~ .nav-auto .auto-btn2 {
+
+    background-color: #099188;
+
+}
+
+
+
+#radio1:checked ~ .primeiro{
+    
+
+    margin-left: 0%;
+}
+
+#radio2:checked ~ .primeiro{
+    
+
+    margin-left: -25%;
+}
+
+
+.Texto-troducao {
+
+text-align: center;
+margin-top: 100px;
+font-size: 90%;
+
+
+}
+
+
+.Texto-troducao h2{
+
+
+    font-size: 50px;
+    
+}
+
+.Texto-troducao p{
+
+  font-size: 30px;
+
+}
+
+
+
+.Serviço-Prestado .image-8{
+         
+    height: 300px;
+    
+
+}
+
+
+.atracs {
+    
+    width: 90%;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    width: 70%;
+  
+}
+
+.atracs span{
+text-align: right;
+    margin-left: 100px;
+    
+   
+
+
+
+}
+
+
+
+
+
+
+.IntSatisfeito{
+
+text-align: center;
+margin-top: 5%;
+
+
+}
+
+.opinião {
+
+    text-align: center;
+    width: 95%;
+    margin-top: 10px;
+    
+    
+    
+}
+
+.op{
+    margin-left: 130px;
+    text-align: center;
+    width: 25%;
+    display: inline-block;
+    
+}
+
+.videos{
+
+    width: 90%;
+    margin-bottom: 10px;
+    width: 70%;
+
+}
+
+.botao{
+
+margin-left: 84.8%;
+
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    margin-top: auto;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+}
+
+.footer-section h4 {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.footer-section p,
+.footer-section ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    font-size: 14px;
+}
+
+.footer-section ul li {
+    margin-bottom: 8px;
+}
+
+.footer-section ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+    background-color: #222;
+}
+
+.footer-bottom p {
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+
